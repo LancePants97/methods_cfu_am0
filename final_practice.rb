@@ -49,9 +49,19 @@ puts greet_person("Lance", "Robert", "Nelson")
 # 4: Write a method named square that takes in one integer, and returns the square of that integer.
 # Bonus: Print a sentence that interpolates the return value of your square method.
 
+def square(int1)
+    answer = int1 ** 2
+    return "#{int1} squared is equal to #{answer}"
+    
+end
+puts square(5)
+
 # What is the return value of your method?
+# The return value of my method is "5 squared is equal to 25"
 # How many arguments did you pass your method?
+# This method only had 1 argument being run through it
 # What data type was your argument(s)?
+# The argument in this was an integery data type
 
 
 # 5: Write a method named check_stock that satisfies the following interaction pattern:

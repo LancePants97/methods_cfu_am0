@@ -26,16 +26,24 @@ def custom_greeting(name)
 # What is the return value of your method?
 # The return value of my method is "Hello, Dad!"
 # How many arguments did you pass your method?
-# I tried 3 different argumnents through my method and they all passed
+# In this method, only one argument is passed through it
 # What data type was your argument(s)?
 # My argument was a string data type
 
 
 # 3: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
 
+def greet_person(first_name, middle_name, last_name)
+    "Hello! Your full name is #{first_name} #{middle_name} #{last_name}!"
+end
+puts greet_person("Lance", "Robert", "Nelson")
+
 # What is the return value of your method?
+# The return value of my method is "Hello! Your full name is Lance Robert Nelson!"
 # How many arguments did you pass your method?
+# In this method, 3 different arguments were passed through it
 # What data type was your argument(s)?
+# All three of my arguments were string data types
 
 
 # 4: Write a method named square that takes in one integer, and returns the square of that integer.

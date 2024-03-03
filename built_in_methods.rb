@@ -41,7 +41,9 @@ puts first_name.start_with?("J")
 
 my_name = "Lance"
 last_name = "Nelson"
-puts my_name.reverse # returns ecnaL
+# This method reverses the charactes in my argument and prints them
+puts my_name.reverse 
+# This method prints the 4th character of my argument
 puts last_name.slice(3) # returns "s"
 
 # SECTION 3: Calling methods on variables assigned to integers.
@@ -50,7 +52,13 @@ puts last_name.slice(3) # returns "s"
 # https://ruby-doc.org/core-3.1.0/Integer.html
 # Include comments above each method call explaining the impact and return value of that method.
 
+my_age = 27
+tears_cried_today = 100
 
+# This method squares my current argument and prints the answer
+puts my_age.**(2)
+# This method checks whether my argument is even or odd. Since 100 is even, it prints "odd"
+puts tears_cried_today.odd?
 
 # SECTION 4: Calling methods on variables assigned to arrays.
 # Declare 2 variables assigned to arrays.

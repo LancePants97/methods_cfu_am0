@@ -65,3 +65,11 @@ puts tears_cried_today.odd?
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
+
+friends = ["Ben", "Charlotte"]
+coworkers = ["Mike", "Will"]
+
+# This method will print the array element "Charlotte" because it is in the place of the method's assigned argument (1)
+puts friends.slice (1)
+# This method will join the array elements "Mike" and "Will" and will print them next to each other with no spaces
+puts coworkers.join

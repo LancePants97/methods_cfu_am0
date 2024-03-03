@@ -39,7 +39,10 @@ puts 18.next
 first_name = "Jeff"
 puts first_name.start_with?("J")
 
-
+my_name = "Lance"
+last_name = "Nelson"
+puts my_name.reverse # returns ecnaL
+puts last_name.slice(3) # returns "s"
 
 # SECTION 3: Calling methods on variables assigned to integers.
 # Declare 2 variables assigned to integer objects.

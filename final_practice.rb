@@ -6,15 +6,29 @@
 
 # 1: Write a method named greeting that returns a string with a general greeting. 
 
-# What is the return value of your method?
-# How many arguments did you pass your method?
+def greeting
+    "Hello there!"
+end
+puts greeting
 
+# What is the return value of your method?
+# The return value of my method is "Hello there!"
+# How many arguments did you pass your method?
+# Since this was a basic greeting, I did not try adding any extra arguments to it
 
 # 2: Write a method named custom_greeting that returns a greeting WITH a specific name.
 
+def custom_greeting(name)
+    "Hello, #{name}!"
+ end
+ puts custom_greeting("Dad")
+
 # What is the return value of your method?
+# The return value of my method is "Hello, Dad!"
 # How many arguments did you pass your method?
+# I tried 3 different argumnents through my method and they all passed
 # What data type was your argument(s)?
+# My argument was a string data type
 
 
 # 3: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
@@ -35,14 +49,14 @@
 # 5: Write a method named check_stock that satisfies the following interaction pattern:
 # Hint: You will only write one check_stock method that checks the quantity and then prints the corresponding statement.
 
-check_stock(4, "Coffee");
+# check_stock(4, "Coffee");
 # => "Coffee is stocked"
 
-check_stock(3, "Tortillas");
+#check_stock(3, "Tortillas");
 # => "Tortillas - running LOW"
 
-check_stock(0, "Cheese");
+#check_stock(0, "Cheese");
 # => "Cheese - OUT of stock!"
 
-check_stock(1, "Salsa");
+#check_stock(1, "Salsa");
 # => "Salsa - running LOW"

@@ -1,4 +1,4 @@
 # Self-Evaluation
 
-- Reflect on your learning and work today. What are you most proud of?
-- What is the power of using methods in our applications?
+- Reflect on your learning and work today. What are you most proud of? I am most proud of my ability to go back through the lessons and my notes and be able to solve these problems today. Although they were all relatively simple in the grand scheme of coding, I am still proud of my accomplishments. It is a great feeling to write code and work through it to find errors and be able to fix it and watch it properly compile.
+- What is the power of using methods in our applications? The power of methods in an application can be extremely useful. Instead of writing a huge chunk of code every time, you can call back to your already-made method and just plug in what you need to know. This can save tons of time when writing large chunks of code. The built in methods that come with Ruby also look very useful as well. I was looking through the links provided and taking note of just how many different methods already come built in. The possibilities literally seem endless when it comes to implementing methods, both custom and built-in.

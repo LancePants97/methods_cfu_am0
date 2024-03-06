@@ -9,6 +9,10 @@
 def greeting
     "Hello there!"
 end
+howdy = greeting
+salutations = greeting
+
+puts greeting
 puts greeting
 
 # What is the return value of your method?
@@ -21,7 +25,11 @@ puts greeting
 def custom_greeting(name)
     "Hello, #{name}!"
  end
- puts custom_greeting("Dad")
+ father = custom_greeting("Dad")
+ mother = custom_greeting("Mom")
+
+ puts father
+ puts mother
 
 # What is the return value of your method?
 # The return value of my method is "Hello, Dad!"
@@ -36,7 +44,11 @@ def custom_greeting(name)
 def greet_person(first_name, middle_name, last_name)
     "Hello! Your full name is #{first_name} #{middle_name} #{last_name}!"
 end
-puts greet_person("Lance", "Robert", "Nelson")
+my_name = greet_person("Lance", "Robert", "Nelson")
+mom_name = greet_person("Ann", "Marie", "Estelle")
+
+puts my_name
+puts mom_name
 
 # What is the return value of your method?
 # The return value of my method is "Hello! Your full name is Lance Robert Nelson!"
@@ -54,7 +66,11 @@ def square(int1)
     return "#{int1} squared is equal to #{answer}"
     
 end
-puts square(5)
+quick_maths = square(5)
+big_boi = square(12)
+
+puts quick_maths
+puts big_boi
 
 # What is the return value of your method?
 # The return value of my method is "5 squared is equal to 25"
@@ -69,11 +85,11 @@ puts square(5)
 
 def check_stock(quantity, item)
     if quantity == 0
-    puts "#{item} - OUT of stock!"
+        return "#{item} - OUT of stock!"
     elsif quantity >= 4
-        puts "#{item} is stocked"
+        return "#{item} is stocked"
     elsif quantity < 4
-        puts "#{item} - running LOW"
+        return "#{item} - running LOW"
     end
 end
 
